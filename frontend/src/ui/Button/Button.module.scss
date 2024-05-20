@@ -1,0 +1,12 @@
+.button {
+  cursor: pointer;
+  transition: all .3s ease;
+  outline: transparent;
+
+  &.disabled {
+    cursor: default;
+    color: rgb(73, 73, 73);
+    border: 1px solid rgb(42, 42, 42);
+    background-color: rgba(255, 255, 255, 0.01);
+  }
+}

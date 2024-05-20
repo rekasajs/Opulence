@@ -1,0 +1,26 @@
+.hero {
+  padding-top: 130px;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  .title {
+    margin-top: 250px;
+    font-size: 220px;
+    text-shadow: 1px 1px 16px rgba(0, 0, 0, 1);
+
+
+    span {
+      position: relative;
+      z-index: 11;
+    }
+  }
+
+  img {
+    position: absolute;
+    z-index: 10;
+    width: 670px;
+    filter: drop-shadow(0 0 20px #000000) brightness(95%);
+  }
+}

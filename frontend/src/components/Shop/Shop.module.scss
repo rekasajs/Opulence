@@ -1,0 +1,16 @@
+.products {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  justify-content: center;
+  justify-items: center;
+  gap: 30px 20px;
+}
+
+.noProducts {
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(141, 141, 141, 0.18);
+}
